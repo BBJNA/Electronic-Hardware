@@ -1339,4 +1339,30 @@ Wire Wire Line
 	14900 2800 14900 2700
 Connection ~ 14900 2700
 Connection ~ 14900 2800
+Wire Notes Line
+	13100 1700 13100 3750
+Wire Notes Line
+	13100 3500 15750 3500
+Wire Notes Line
+	15750 1700 15750 3750
+Wire Notes Line
+	15750 1700 13100 1700
+Wire Notes Line
+	15750 3750 13100 3750
+Text Notes 13950 3650 0    60   ~ 0
+3.3V Analog Reference
+Wire Notes Line
+	13350 5600 13350 8100
+Wire Notes Line
+	13350 7750 16150 7750
+Wire Notes Line
+	16150 5450 16150 8100
+Wire Notes Line
+	16150 5450 13350 5450
+Wire Notes Line
+	13350 5450 13350 5650
+Wire Notes Line
+	16150 8100 13350 8100
+Text Notes 14350 7950 0    60   ~ 0
+Connector To Shield
 $EndSCHEMATC
