@@ -1,0 +1,4 @@
+Part\#,PartType,FarnellLink,DigiKeyLink,MouserLink,Value,Footprint,Manufacture,Digikey PN,Cost,Found in: 
+C1,C,,,,0.1u,,,,$,BELM_Accelerometer.sch
+C2,C,,,,10u,,,,$,BELM_Accelerometer.sch
+U1,LIS344ALH,,,,LIS344ALH,,STMicro,497-6345-1-ND,$,BELM_Accelerometer.sch
