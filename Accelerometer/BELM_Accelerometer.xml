@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>Y:/Portfolio/Accelerometer/BELM_Accelerometer.sch</source>
+    <date>12/1/2017 5:33:02 PM</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Accelerometer Board</title>
+        <company>S.I.R.</company>
+        <rev>A</rev>
+        <date>2017-11-27</date>
+        <source>BELM_Accelerometer.sch</source>
+        <comment number="1" value="Drawn By: Jordan Williams"/>
+        <comment number="2" value="Reviewed By: Lee Smith/ Todd Comins"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LIS344ALH</value>
+      <footprint>Senior_Design:16-LGA</footprint>
+      <libsource lib="SeniorDesign" part="LIS344ALH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0281B9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A02858B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0285D0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1000pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A109BB5</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TSV914IPT</value>
+      <footprint>Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm</footprint>
+      <libsource lib="SeniorDesign" part="TSV914IPT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10BE5A</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ADS8864</value>
+      <footprint>Housings_SSOP:TSSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <libsource lib="SeniorDesign" part="ADS8864"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10D90A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ADS8864</value>
+      <footprint>Housings_SSOP:TSSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <libsource lib="SeniorDesign" part="ADS8864"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10E4DF</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ADS8864</value>
+      <footprint>Housings_SSOP:TSSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <libsource lib="SeniorDesign" part="ADS8864"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10E843</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10000pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A11300A</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MAX6126B30+</value>
+      <footprint>Senior_Design:uMAX</footprint>
+      <libsource lib="SeniorDesign" part="MAX6126B30+"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1291A6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A121755</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5504-3.3</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="SeniorDesign" part="MIC5504-3.3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A167A08</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A168669</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RJ45</value>
+      <footprint>Senior_Design:A-2004-2-4-LPS-N-R</footprint>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1C4DE3</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>6.8V</value>
+      <footprint>Senior_Design:SOD-123FL</footprint>
+      <fields>
+        <field name="Imax">10A</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1C9853</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>6.8V</value>
+      <footprint>Senior_Design:SOD-123FL</footprint>
+      <fields>
+        <field name="Imax">10A</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1C9B71</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>6.8V</value>
+      <footprint>Senior_Design:SOD-123FL</footprint>
+      <fields>
+        <field name="Imax">10A</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1C9D2A</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>6.8V</value>
+      <footprint>Senior_Design:SOD-123FL</footprint>
+      <fields>
+        <field name="Imax">10A</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1CB2F7</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>6.8V</value>
+      <footprint>Senior_Design:SOD-123FL</footprint>
+      <fields>
+        <field name="Imax">10A</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1CB305</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>6.8V</value>
+      <footprint>Senior_Design:SOD-123FL</footprint>
+      <fields>
+        <field name="Imax">10A</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1CB313</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>6.8V</value>
+      <footprint>Senior_Design:SOD-123FL</footprint>
+      <fields>
+        <field name="Imax">10A</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1CC426</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>SN65LVDT34D</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="SeniorDesign" part="SN65LVDT34D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1CC2AF</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>DS90LV017ATMX/NOPB</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="SeniorDesign" part="DS90LV017ATMX/NOPB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1E3A8C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1F1265</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1F1901</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1FAAFA</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1FB204</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1FB2B5</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1FB701</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1FB7C6</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1FDE69</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1FE865</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1FEDB3</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A201D79</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A201E21</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A20241A</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A2026FA</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A203528</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A2037F8</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A203E3B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1000pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A209F5D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1000pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A20A00A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A20BF46</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A20C02B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SeniorDesign" part="ADS8864">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS8864</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="input"/>
+        <pin num="2" name="AVDD" type="power_in"/>
+        <pin num="3" name="AINP" type="input"/>
+        <pin num="4" name="AINN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="CONVST" type="input"/>
+        <pin num="7" name="DOUT" type="output"/>
+        <pin num="8" name="SCLK" type="input"/>
+        <pin num="9" name="DIN" type="input"/>
+        <pin num="10" name="DVDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeniorDesign" part="DS90LV017ATMX/NOPB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS90LV017ATMX/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="DI1" type="input"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="DO1+" type="output"/>
+        <pin num="8" name="DO1-" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_ALT">
+      <description>Schottky diode, alternativ symbol</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeniorDesign" part="LIS344ALH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LIS344ALH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FS" type="input"/>
+        <pin num="2" name="ST" type="input"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="PD" type="input"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="Zout" type="output"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="Yout" type="output"/>
+        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="12" name="Xout" type="output"/>
+        <pin num="13" name="NC" type="NotConnected"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="RES" type="power_in"/>
+        <pin num="16" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeniorDesign" part="MAX6126B30+">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX6126B30+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NR" type="input"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GNDS" type="power_in"/>
+        <pin num="5" name="I.C" type="NotConnected"/>
+        <pin num="6" name="OUTS" type="power_in"/>
+        <pin num="7" name="OUTF" type="power_out"/>
+        <pin num="8" name="I.C" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeniorDesign" part="MIC5504-3.3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5504-3.3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="RJ45">
+      <description>RJ45 connector with shield</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeniorDesign" part="SN65LVDT34D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN65LVDT34D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="1Y" type="output"/>
+        <pin num="3" name="2Y" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="2B" type="input"/>
+        <pin num="6" name="2A" type="input"/>
+        <pin num="7" name="1B" type="input"/>
+        <pin num="8" name="1A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeniorDesign" part="TSV914IPT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSV914IPT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT1" type="output"/>
+        <pin num="2" name="In1-" type="input"/>
+        <pin num="3" name="In1+" type="input"/>
+        <pin num="4" name="VCC+" type="power_in"/>
+        <pin num="5" name="In2+" type="input"/>
+        <pin num="6" name="In2-" type="input"/>
+        <pin num="7" name="Out2" type="output"/>
+        <pin num="8" name="Out3" type="output"/>
+        <pin num="9" name="In3-" type="input"/>
+        <pin num="10" name="In3+" type="input"/>
+        <pin num="11" name="VCC-" type="power_in"/>
+        <pin num="12" name="In4+" type="input"/>
+        <pin num="13" name="In4-" type="input"/>
+        <pin num="14" name="OUT4" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>Y:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="SeniorDesign">
+      <uri>Y:\Portfolio\Libraries\SeniorDesign.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>Y:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U5-Pad9)">
+      <node ref="U5" pin="9"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="2" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="3" name="SCLK">
+      <node ref="U5" pin="8"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="4" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="5" name="+3VA">
+      <node ref="C20" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U7" pin="7"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C13-Pad1)">
+      <node ref="U4" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U7" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U9" pin="4"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="10" name="+3V3">
+      <node ref="C11" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U5" pin="10"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U6" pin="10"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="11" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="12" name="Net-(U3-Pad1)">
+      <node ref="U6" pin="3"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C3-Pad1)">
+      <node ref="J1" pin="9"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="14" name="MISO_-">
+      <node ref="D2" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="15" name="MISO_+">
+      <node ref="D1" pin="1"/>
+      <node ref="U8" pin="7"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="16" name="SHIELD_GND">
+      <node ref="D6" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="17" name="/Xout">
+      <node ref="C4" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="18" name="+5V">
+      <node ref="C8" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U7" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="19" name="/Zout">
+      <node ref="U1" pin="8"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="20" name="/Yout">
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="7"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="22" name="CONVST_-">
+      <node ref="D6" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="23" name="CONVST_+">
+      <node ref="J1" pin="8"/>
+      <node ref="D7" pin="1"/>
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="24" name="SCK_+">
+      <node ref="U9" pin="6"/>
+      <node ref="D5" pin="1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="25" name="SCK_-">
+      <node ref="D4" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="26" name="CONVST">
+      <node ref="U5" pin="6"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="27" name="Net-(U7-Pad5)">
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="28" name="Net-(U7-Pad8)">
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="36" name="/MISO">
+      <node ref="U4" pin="7"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="37" name="Net-(U8-Pad3)">
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="38" name="Net-(U8-Pad5)">
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="39" name="Net-(U8-Pad6)">
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+  </nets>
+</export>

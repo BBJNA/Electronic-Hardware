@@ -3,7 +3,7 @@
   (general
     (links 127)
     (no_connects 0)
-    (area 96.873288 60.165 189.511715 120.137)
+    (area 96.873288 60.165 189.511715 120.477)
     (thickness 1.5748)
     (drawings 16)
     (tracks 421)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (1 In1.Cu power)
+    (1 In1.Cu power hide)
     (2 In2.Cu power hide)
     (31 B.Cu signal)
     (32 B.Adhes user)
@@ -66,7 +66,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x00020_80000007)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -87,9 +87,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Y:/Portfolio/Accelerometer/Fabrication/))
   )
 
   (net 0 "")
