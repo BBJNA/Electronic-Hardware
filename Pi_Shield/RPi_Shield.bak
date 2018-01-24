@@ -1,0 +1,334 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BELM_Accelerometer-cache
+LIBS:SeniorDesign
+LIBS:RPi_Shield-cache
+EELAYER 25 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2018-01-23"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X20 J?
+U 1 1 5A668FBF
+P 3650 3400
+F 0 "J?" H 3650 4450 50  0000 C CNN
+F 1 "CONN_02X20" V 3650 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 3650 2450 50  0001 C CNN
+F 3 "" H 3650 2450 50  0001 C CNN
+	1    3650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A669093
+P 3300 4350
+F 0 "#PWR?" H 3300 4100 50  0001 C CNN
+F 1 "GND" H 3300 4200 50  0000 C CNN
+F 2 "" H 3300 4350 50  0001 C CNN
+F 3 "" H 3300 4350 50  0001 C CNN
+	1    3300 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A6690A8
+P 3300 3650
+F 0 "#PWR?" H 3300 3400 50  0001 C CNN
+F 1 "GND" H 3300 3500 50  0000 C CNN
+F 2 "" H 3300 3650 50  0001 C CNN
+F 3 "" H 3300 3650 50  0001 C CNN
+	1    3300 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A6690BD
+P 3250 2850
+F 0 "#PWR?" H 3250 2600 50  0001 C CNN
+F 1 "GND" H 3250 2700 50  0000 C CNN
+F 2 "" H 3250 2850 50  0001 C CNN
+F 3 "" H 3250 2850 50  0001 C CNN
+	1    3250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A6690CB
+P 4050 2650
+F 0 "#PWR?" H 4050 2400 50  0001 C CNN
+F 1 "GND" H 4050 2500 50  0000 C CNN
+F 2 "" H 4050 2650 50  0001 C CNN
+F 3 "" H 4050 2650 50  0001 C CNN
+	1    4050 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A6690D9
+P 4050 3050
+F 0 "#PWR?" H 4050 2800 50  0001 C CNN
+F 1 "GND" H 4050 2900 50  0000 C CNN
+F 2 "" H 4050 3050 50  0001 C CNN
+F 3 "" H 4050 3050 50  0001 C CNN
+	1    4050 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A6690E7
+P 4050 3350
+F 0 "#PWR?" H 4050 3100 50  0001 C CNN
+F 1 "GND" H 4050 3200 50  0000 C CNN
+F 2 "" H 4050 3350 50  0001 C CNN
+F 3 "" H 4050 3350 50  0001 C CNN
+	1    4050 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A6690F5
+P 4050 3850
+F 0 "#PWR?" H 4050 3600 50  0001 C CNN
+F 1 "GND" H 4050 3700 50  0000 C CNN
+F 2 "" H 4050 3850 50  0001 C CNN
+F 3 "" H 4050 3850 50  0001 C CNN
+	1    4050 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A669103
+P 4050 4050
+F 0 "#PWR?" H 4050 3800 50  0001 C CNN
+F 1 "GND" H 4050 3900 50  0000 C CNN
+F 2 "" H 4050 4050 50  0001 C CNN
+F 3 "" H 4050 4050 50  0001 C CNN
+	1    4050 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 4350 3400 4350
+Wire Wire Line
+	4050 4050 3900 4050
+Wire Wire Line
+	3900 3850 4050 3850
+Wire Wire Line
+	4050 3350 3900 3350
+Wire Wire Line
+	3900 3050 4050 3050
+Wire Wire Line
+	4050 2650 3900 2650
+Wire Wire Line
+	3250 2850 3400 2850
+Wire Wire Line
+	3300 3650 3400 3650
+Text GLabel 3050 4050 0    50   Input ~ 0
+MUX_A
+Text GLabel 3050 4150 0    50   Input ~ 0
+MUX_B
+Text GLabel 3050 4250 0    50   Input ~ 0
+MUX_C
+NoConn ~ 3900 3950
+NoConn ~ 3400 3950
+NoConn ~ 3400 3850
+NoConn ~ 3900 2450
+NoConn ~ 3900 2550
+NoConn ~ 3900 2750
+NoConn ~ 3900 2850
+NoConn ~ 3400 2550
+NoConn ~ 3400 2650
+NoConn ~ 3400 2750
+NoConn ~ 3400 2950
+NoConn ~ 3400 3050
+NoConn ~ 3400 3150
+Text GLabel 3050 3450 0    50   Input ~ 0
+SPI_MISO
+Text GLabel 3050 3550 0    50   Input ~ 0
+SPI_CLK
+Wire Wire Line
+	3050 3450 3400 3450
+Wire Wire Line
+	3400 3550 3050 3550
+$Comp
+L +3V3 #PWR?
+U 1 1 5A669257
+P 3250 2400
+F 0 "#PWR?" H 3250 2250 50  0001 C CNN
+F 1 "+3V3" H 3250 2540 50  0000 C CNN
+F 2 "" H 3250 2400 50  0001 C CNN
+F 3 "" H 3250 2400 50  0001 C CNN
+	1    3250 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2400 3250 2450
+Wire Wire Line
+	3250 2450 3400 2450
+$Comp
+L +3V3 #PWR?
+U 1 1 5A6692A8
+P 3150 3200
+F 0 "#PWR?" H 3150 3050 50  0001 C CNN
+F 1 "+3V3" H 3150 3340 50  0000 C CNN
+F 2 "" H 3150 3200 50  0001 C CNN
+F 3 "" H 3150 3200 50  0001 C CNN
+	1    3150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3250 3400 3250
+Wire Wire Line
+	3150 3250 3150 3200
+Text GLabel 4250 3550 2    50   Input ~ 0
+~SPI_CE0_N
+Wire Wire Line
+	3900 3550 4250 3550
+NoConn ~ 3900 3150
+NoConn ~ 3900 3250
+NoConn ~ 3900 2950
+NoConn ~ 3900 3450
+NoConn ~ 3900 3650
+NoConn ~ 3900 3750
+NoConn ~ 3900 4350
+NoConn ~ 3900 4250
+NoConn ~ 3900 4150
+Text GLabel 3050 3350 0    50   Input ~ 0
+CONVST
+Wire Wire Line
+	3400 3350 3050 3350
+Wire Wire Line
+	3050 4050 3400 4050
+Wire Wire Line
+	3400 4150 3050 4150
+Wire Wire Line
+	3050 4250 3400 4250
+NoConn ~ 3400 3750
+$Comp
+L SN74LV4051ADR U?
+U 1 1 5A67D2F9
+P 7800 3400
+F 0 "U?" H 7800 2900 60  0000 C CNN
+F 1 "SN74LV4051ADR" H 7800 4000 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7800 2900 60  0001 C CNN
+F 3 "" H 7800 2900 60  0001 C CNN
+	1    7800 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 3550 0    50   Input ~ 0
+~SPI_CE0_N
+Wire Wire Line
+	7000 3550 7350 3550
+Text GLabel 7000 3250 0    50   Input ~ 0
+MUX_A
+Text GLabel 7000 3350 0    50   Input ~ 0
+MUX_B
+Text GLabel 7000 3450 0    50   Input ~ 0
+MUX_C
+Wire Wire Line
+	7000 3250 7350 3250
+Wire Wire Line
+	7350 3350 7000 3350
+Wire Wire Line
+	7000 3450 7350 3450
+$Comp
+L +3V3 #PWR?
+U 1 1 5A67D6C8
+P 7000 2900
+F 0 "#PWR?" H 7000 2750 50  0001 C CNN
+F 1 "+3V3" H 7000 3040 50  0000 C CNN
+F 2 "" H 7000 2900 50  0001 C CNN
+F 3 "" H 7000 2900 50  0001 C CNN
+	1    7000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2900 7000 2950
+Wire Wire Line
+	7000 2950 7350 2950
+$Comp
+L GND #PWR?
+U 1 1 5A67D7FB
+P 7250 3850
+F 0 "#PWR?" H 7250 3600 50  0001 C CNN
+F 1 "GND" H 7250 3700 50  0000 C CNN
+F 2 "" H 7250 3850 50  0001 C CNN
+F 3 "" H 7250 3850 50  0001 C CNN
+	1    7250 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3700 7250 3700
+Wire Wire Line
+	7250 3700 7250 3850
+Wire Wire Line
+	7350 3800 7250 3800
+Connection ~ 7250 3800
+Text GLabel 7000 3100 0    50   Input ~ 0
+SPI_CLK
+Wire Wire Line
+	7350 3100 7000 3100
+Wire Wire Line
+	8450 3050 8250 3050
+Wire Wire Line
+	8450 3150 8250 3150
+Wire Wire Line
+	8450 3250 8250 3250
+Wire Wire Line
+	8450 3350 8250 3350
+Wire Wire Line
+	8450 3450 8250 3450
+Wire Wire Line
+	8450 3550 8250 3550
+NoConn ~ 8250 3650
+NoConn ~ 8250 3750
+Text GLabel 8450 3150 2    50   Input ~ 0
+ACCEL_1
+Text GLabel 8450 3250 2    50   Input ~ 0
+ACCEL_2
+Text GLabel 8450 3350 2    50   Input ~ 0
+ACCEL_3
+Text GLabel 8450 3450 2    50   Input ~ 0
+ACCEL_4
+Text GLabel 8450 3050 2    50   Input ~ 0
+ACCEL_0
+Text GLabel 8450 3550 2    50   Input ~ 0
+ACCEL_5
+$EndSCHEMATC
