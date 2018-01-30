@@ -4,4 +4,9 @@ $CMP +3VA
 K POWER, PWR
 $ENDCMP
 #
+$CMP RJ45_2PORT
+D RJ45 connector with shield
+K RJ45
+$ENDCMP
+#
 #End Doc Library
